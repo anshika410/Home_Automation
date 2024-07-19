@@ -4,14 +4,12 @@ The Home Automation System uses microcontrollers like Arduino or ESP8266 to cont
 - In this ESP32 project, I have explained how to make IoT-based projects using ESP32 with Google Home & Alexa. With this Internet of Things project, you can control 3 home appliances with Google Assistant, - Alexa, and manual switches. You can also control the relays from Google Home and Amazon Alexa App from anywhere in the world.
 
 - And you don’t need any Google Nest or Amazon Echo Dot devices for this voice control home automation project.
-
-![Home Automation System](images/home-automation-diagram.png)
 - With this home automation project, you can control & monitor the real-time feedback of the relays in the Google Home and Alexa App from anywhere in the world. If the Wi-Fi is available, the ESP32 will automatically connect with the Wi-Fi.
-![Home Automation System](images/home-automation-diagram.png)
+![....](NodeMCU-Alexa-Google-Home-Control-P-6.jpg)
 - For this project, I have used all the FREE tools. So if you follow all the steps, you can easily make this Smart Home System with Google Home and Amazon Alexa to control the appliances with voice commands.
 
 ## Circuit of the ESP32 Home Automation
-![Home Automation System](images/home-automation-diagram.png)
+![Circuit](Circuit.jpg)
 - I have used D23, D22, D21 & D19 GPIO to control the 4-channel relay module.
 
 - And the GPIO D13, D12, D14 & D27 are connected with switches to control the relay module manually.
@@ -78,14 +76,14 @@ The Home Automation System uses microcontrollers like Arduino or ESP8266 to cont
 ### ESP32 control Relays with Alexa App
 - If the ESP32 is connected with Wi-Fi, then you can ask Alexa, to turn on the light [“Alexa, Turn ON Room Light“]. Thus, you can control the appliances like light, fan, etc with voice commands using
 - Amazon Alexa App, and also monitor the current status of the switches from anywhere in the world from the Alexa App.
-- ![Home Automation System](images/home-automation-diagram.png)
+- ![Relays with Alexa App](ESP32-Alexa-Google-Home-Automation-P-6.jpg)
 
 ## ESP32 control Relays with Google Assistant
--  ![Home Automation System](images/home-automation-diagram.png)
+-  ![Relays with Google Assistant](2nd.jpg)
 - You can also ask Google Assistant, to control the light [“Hey Google, Turn ON the Room Light“]. Thus, you can control the appliances like light, fan, etc with voice commands using Google Assistant, and also monitor the real-time feedback and control the relays from anywhere in the world from the Google Home App.
 
 ## Control relays manually with Switches
--  ![Home Automation System](images/home-automation-diagram.png)
+-  ![relays manually with Switches](3rd.jpg)
 - You can always control the appliances manually with switches or push buttons and monitor the real-time status in Google Home and Alexa App.
 
 ## Conclusion
